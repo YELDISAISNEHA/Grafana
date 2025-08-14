@@ -6,13 +6,13 @@
       - [database]
       - type = mysql
       - host = 127.0.0.1:3306
-      - name = grafana
-      - user = grafana
-      - password = YourStrongPassword
-      - ssl_mode = disable
+- name = grafana
+- user = grafana
+- password = YourStrongPassword
+- ssl_mode = disable
 - Check whether the configuration is Successfull:
-      - mysql -u grafana -p grafana
-      - show tables; (If it return some default tables then the integration is successfull)
+- mysql -u grafana -p grafana
+- show tables; (If it return some default tables then the integration is successfull)
 - Go to the browser (http://localhost:3000/)
 - Add the mysql data source
 - Create Dashboard
