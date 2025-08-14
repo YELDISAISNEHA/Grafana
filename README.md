@@ -3,9 +3,9 @@
 ## Steps to create Grafana Dashboard
 - Install mysql server and grafana
 - Configure the database settings in database section of sample.ini file which was available in this directory (C:\Program Files\GrafanaLabs\grafana\conf\sample.ini)
-      - [database]
-      - type = mysql
-      - host = 127.0.0.1:3306
+- [database]
+- type = mysql
+- host = 127.0.0.1:3306
 - name = grafana
 - user = grafana
 - password = YourStrongPassword
